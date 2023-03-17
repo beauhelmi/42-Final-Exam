@@ -14,8 +14,8 @@
 
 int		main(int argc, char **argv)
 {
-	if (argc != 2)
-		write(1, "a", 1);
+	if (argc != 2) //check argument, if not 2, print a
+		write(1, "a", 1); //3 arguments- file descriptor, the string to be written, number of bytes to be written
 	else
 	{
 		while (*argv[1])
